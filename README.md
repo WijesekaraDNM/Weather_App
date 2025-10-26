@@ -1,18 +1,18 @@
-#Weather App
+# Weather App
 
 Weather application built with React that provides real-time weather information for cities worldwide
 
-##Table of Contents
+## Table of Contents
 
-Features
+- Features
 
-Setup Instructions
+- Setup Instructions
 
-Environment Variables
+- Environment Variables
 
-Technologies Used
+- Technologies Used
 
-##Features
+## Features
 
 🌍 Multi-City Weather: View weather for multiple cities simultaneously
 
@@ -30,18 +30,19 @@ Technologies Used
 
 🎯 Interactive Cards: Remove cities with one click
 
-##Setup Instructions
-##Prerequisites
+## Setup Instructions
 
-*Node.js (v14 or higher)
+### Prerequisites
 
-*npm or yarn
+- Node.js (v14 or higher)
 
-*OpenWeatherMap API account
+- npm or yarn
 
-*Auth0 account
+- OpenWeatherMap API account
 
-###Step-by-Step Installation
+- Auth0 account
+
+### Step-by-Step Installation
 
 Clone the repository:
 git clone <repository-url>
@@ -59,7 +60,7 @@ npm start
 Open your browser:
 Navigate to http://localhost:3000
 
-##Environment Variables
+## Environment Variables
 
 ### OpenWeatherMap API Configuration
 REACT_APP_OPENWEATHER_API_KEY=your_openweather_api_key_here
@@ -69,22 +70,22 @@ REACT_APP_AUTH0_DOMAIN=your-auth0-domain.auth0.com
 REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
 REACT_APP_AUTH0_AUDIENCE=your-auth0-audience
 
-##Technologies Used
+## Technologies Used
 
-Frontend Framework: React 18
+- Frontend Framework: React 18
 
-Styling: Tailwind CSS
+- Styling: Tailwind CSS
 
-Authentication: Auth0
+- Authentication: Auth0
 
-HTTP Client: Axios
+- HTTP Client: Axios
 
-Notifications: React Toastify
+- Notifications: React Toastify
 
-Icons: React Icons (Fa6, Fa)
+- Icons: React Icons (Fa6, Fa)
 
-Routing: React Router DOM
+- Routing: React Router DOM
 
-State Management: React Hooks (useState, useEffect)
+- State Management: React Hooks (useState, useEffect)
 
-API: OpenWeatherMap REST API
+- API: OpenWeatherMap REST API
