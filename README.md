@@ -1,7 +1,9 @@
-🌤️ Weather App
+#🌤️ Weather App
+
 Weather application built with React that provides real-time weather information for cities worldwide
 
-📋 Table of Contents
+#📋 Table of Contents
+
 Features
 
 Setup Instructions
@@ -10,7 +12,8 @@ Environment Variables
 
 Technologies Used
 
-✨ Features
+#✨ Features
+
 🌍 Multi-City Weather: View weather for multiple cities simultaneously
 
 🎨 Dynamic UI: Colors change based on current weather conditions
@@ -27,8 +30,8 @@ Technologies Used
 
 🎯 Interactive Cards: Remove cities with one click
 
-🚀 Setup Instructions
-Prerequisites
+#🚀 Setup Instructions
+##Prerequisites
 
 *Node.js (v14 or higher)
 
@@ -38,7 +41,7 @@ Prerequisites
 
 *Auth0 account
 
-Step-by-Step Installation
+##Step-by-Step Installation
 
 Clone the repository:
 git clone <repository-url>
@@ -56,17 +59,17 @@ npm start
 Open your browser:
 Navigate to http://localhost:3000
 
-🔧 Environment Variables
+#🔧 Environment Variables
 
-# OpenWeatherMap API Configuration
+### OpenWeatherMap API Configuration
 REACT_APP_OPENWEATHER_API_KEY=your_openweather_api_key_here
 
-# Auth0 Configuration
+### Auth0 Configuration
 REACT_APP_AUTH0_DOMAIN=your-auth0-domain.auth0.com
 REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
 REACT_APP_AUTH0_AUDIENCE=your-auth0-audience
 
-💻 Technologies Used
+#💻 Technologies Used
 
 Frontend Framework: React 18
 
