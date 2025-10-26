@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+🌤️ Weather App
+Weather application built with React that provides real-time weather information for cities worldwide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📋 Table of Contents
+Features
 
-## Available Scripts
+Setup Instructions
 
-In the project directory, you can run:
+Environment Variables
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Features
+🌍 Multi-City Weather: View weather for multiple cities simultaneously
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🎨 Dynamic UI: Colors change based on current weather conditions
 
-### `npm test`
+⚡ Real-time Data: Live weather updates from OpenWeatherMap API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💾 Smart Caching: 5-minute cache to reduce API calls
 
-### `npm run build`
+🔍 City Search: Add any city worldwide to your dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📱 Responsive Design: Works on all devices
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔐 Secure Authentication: Protected by Auth0
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎯 Interactive Cards: Remove cities with one click
 
-### `npm run eject`
+🚀 Setup Instructions
+Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Node.js (v14 or higher)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*OpenWeatherMap API account
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*Auth0 account
 
-## Learn More
+Step-by-Step Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone the repository:
+git clone <repository-url>
+cd weather-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies:
+npm install
 
-### Code Splitting
+Set up environment variables:
+cp .env.example .env
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the development server:
+npm start
 
-### Analyzing the Bundle Size
+Open your browser:
+Navigate to http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🔧 Environment Variables
 
-### Making a Progressive Web App
+# OpenWeatherMap API Configuration
+REACT_APP_OPENWEATHER_API_KEY=your_openweather_api_key_here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Auth0 Configuration
+REACT_APP_AUTH0_DOMAIN=your-auth0-domain.auth0.com
+REACT_APP_AUTH0_CLIENT_ID=your-auth0-client-id
+REACT_APP_AUTH0_AUDIENCE=your-auth0-audience
 
-### Advanced Configuration
+💻 Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frontend Framework: React 18
 
-### Deployment
+Styling: Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Authentication: Auth0
 
-### `npm run build` fails to minify
+HTTP Client: Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notifications: React Toastify
+
+Icons: React Icons (Fa6, Fa)
+
+Routing: React Router DOM
+
+State Management: React Hooks (useState, useEffect)
+
+API: OpenWeatherMap REST API
